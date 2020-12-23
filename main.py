@@ -1,6 +1,6 @@
-from config.app import APP_DEBUG, APP_SECRET_KEY
 from flask import Flask
 
+from config.app import APP_DEBUG, APP_SECRET_KEY
 from blueprints.products_blueprint import products_blueprint
 
 app = Flask(__name__)
